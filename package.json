@@ -1,0 +1,8 @@
+{
+  "name": "meetup-crawler",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "git@github.com:ManRueda/meetup-crawler.git",
+  "author": "Manuel Rueda <manuel.rueda.un@gmail.com>",
+  "license": "MIT"
+}
