@@ -24,7 +24,7 @@ function mapEventToCommonOutput (event) {
     id: event.id,
     name: event.name,
     total_capacity: event.rsvp_limit,
-    time: new Date(event.time + event.utc_offset),
+    time: new Date(event.time),
     attendees: event.yes_rsvp_count,
     waitinglist: event.waitinglist_count,
     location: event.venue ? {
