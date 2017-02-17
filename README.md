@@ -1,4 +1,4 @@
-# Meetup Crawler
+ Meetup Crawler
 
 This is a crawler that search all the next events of all the events under a set of categories and the location.
 
@@ -34,3 +34,27 @@ This module exports a simple function that recieve a `options` object and return
 * meetup:
   * name: Meetup that host this event
   * link: Link the the meetup that host this event
+
+```json
+{
+  "id":"",
+  "name": "",
+  "total_capacity": "",
+  "time": "",
+  "attendees": "",
+  "waitinglist": "",
+  "location" : {
+    "name": "",
+    "address": "",
+    "city": "",
+    "country": ""
+  },
+  "link": "",
+  "description": "",
+  "visibility": "",
+  "meetup": {
+    "name": "",
+    "link": ""
+  }
+}
+```
